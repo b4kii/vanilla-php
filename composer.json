@@ -1,0 +1,15 @@
+{
+    "require": {
+        "chillerlan/php-qrcode": "^5.0",
+        "pecee/simple-router": "5.4.1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Calendar\\": "src/"
+        },
+        "files": [
+            "src/utils/helpers.php",
+            "src/utils/utils.php"
+        ]
+    }
+}
